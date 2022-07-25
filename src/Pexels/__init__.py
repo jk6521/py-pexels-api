@@ -5,6 +5,6 @@ from .errors import APIError, InvalidTokenError, QuotaExceedError
 from .errors import PexelsError, APIError, QuotaExceedError, InvalidTokenError
 from .constants import COLOR, ORIENTATION, SIZE, LOCALE_SUPPORTED
 
-__version__ = "1.0.dev1"
+__version__ = "1.0.dev2"
 
 __author__ = "jokerhacker.6521@protonmail.com"
