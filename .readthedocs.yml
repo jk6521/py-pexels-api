@@ -19,7 +19,7 @@ python:
    install:
      - method: pip
        path: .
-     - requirements: requirements.txt
+     - requirements: docs/docs-requirements.txt
 
 build:
    os: ubuntu-20.04
