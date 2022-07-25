@@ -5,11 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "python-pexels"
 description = "A unofficial python wrapper library for Pexels API"
+readme = "README.md"
 keywords = ["API Wrapper", "Pexels API", "PexelsAPI"]
 authors = [
     { name="Joker Hacker", email="jokerhacker.6521@protonmail.com"}
 ]
-dynamic = ["version", "readme"]
+dynamic = ["version"]
 license = { text="GNU General Public License v3 (GPLv3)"}
 requires-python = ">=3.9"
 classifiers = [
@@ -24,7 +25,6 @@ dependencies = [
 
 [tool.setuptools.dynamic]
 version = {attr = "Pexels.__version__"}
-readme = {file = "README.md"}
 
 [project.urls]
 "Homepage" = "https://python-pexels.readthedocs.io/en/latest/"
