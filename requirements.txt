@@ -54,3 +54,4 @@ typing_extensions==4.3.0
 urllib3==1.26.10
 webencodings==0.5.1
 zipp==3.8.1
+python-pexels
