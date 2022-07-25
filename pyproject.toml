@@ -19,15 +19,15 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    'importlib-metadata; python_version<"3.9"',
+    'importlib-metadata; python_version<"3.8"',
 ]
 
 [tool.setuptools.dynamic]
 version = {attr = "Pexels.__version__"}
 readme = {file = "README.md"}
 
-# [project.urls]
-# "Homepage" = ""
-# "Bug Tracker" = ""
-# "Documentation" = ""
-# "Source Code" = ""
+[project.urls]
+"Homepage" = "https://python-pexels.readthedocs.io/en/latest/"
+"Bug Tracker" = "https://python-pexels.readthedocs.io/en/latest/"
+"Documentation" = "https://python-pexels.readthedocs.io/en/latest/"
+"Source Code" = "https://github.com/jk6521/py-pexels-api"
