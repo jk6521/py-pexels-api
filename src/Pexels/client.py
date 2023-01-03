@@ -198,7 +198,7 @@ class Client:
 
         params = {'page': page, 'per_page': per_page}
 
-        data, req = self._make_request("curated", "photo", quer=params)
+        data, req = self._make_request("curated", "photo", query=params)
         return PhotoResponse(**data)
 
     def get_photo(self, id: int) -> Photo:
